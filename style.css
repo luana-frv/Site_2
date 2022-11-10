@@ -1,0 +1,48 @@
+html 
+{text-align:center;
+background-color: #000000;}
+
+
+h1 
+{color:#cc0000;
+font-size: 34pt;
+font-family: Fantasy;
+text-shadow: 4px 4px #660000;}
+
+
+div 
+{background-color: #cc0000;
+color: #000000;
+font-family: Helvatica;
+font-size: 13pt;}
+
+
+img
+{width:483px;
+height:241;}
+
+
+h2
+{color:#cc0000;
+font-family: Fantasy;}
+
+
+table 
+{width:100%;}
+
+th,td
+{text-align: center; padding: 6px;} 
+
+
+details
+{ color:#660000;
+    font-family: Helvatica;
+    font-size: 13pt;}
+
+a
+{color:#928f8f;}
+
+
+iframe {width:483px;
+height:241px;}
+
