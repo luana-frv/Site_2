@@ -11,15 +11,18 @@ text-shadow: 4px 4px #660000;}
 
 
 div 
-{background-color: #cc0000;
+{display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+background-color: #cc0000;
 color: #000000;
 font-family: Helvatica;
 font-size: 13pt;}
 
 
 img
-{width:483px;
-height:241;}
+{width: 460px;
+height: 230px;}
 
 
 h2
@@ -43,6 +46,33 @@ a
 {color:#928f8f;}
 
 
-iframe {width:483px;
-height:241px;}
+iframe 
+{width:460px;
+height:230px;}
 
+
+@media only screen and (min width: 600px) 
+{   
+    h1 
+    {font-size: 22pt;
+    text-shadow: 2px 2px #660000;}
+    
+    
+    div 
+    {font-size: 12pt;}
+    
+    
+    img
+    {width: 310px;
+    height: 105px;}
+    
+    
+    details
+    {font-size: 12pt;}
+    
+    
+    iframe 
+    {width: 310px;
+    height: 105px;}
+}
+  
